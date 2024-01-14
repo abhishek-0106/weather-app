@@ -1,0 +1,7 @@
+.coloring-text {
+  color: white;
+}
+.forecast-img {
+  display: flex;
+  justify-content: left;
+}

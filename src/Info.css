@@ -1,0 +1,36 @@
+.info-parent {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.title-description {
+  font-size: small;
+  display: flex;
+}
+
+.number-data {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.meta-description {
+  font-size: small;
+}
+
+.search-bar {
+  background-color: black;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.4rem;
+  display: flex;
+}
+
+.search-text {
+  background-color: black;
+  color: white;
+  outline: none;
+  border-style: none;
+}

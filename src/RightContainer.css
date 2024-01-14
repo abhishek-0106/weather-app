@@ -1,0 +1,42 @@
+.border-design {
+  border-radius: 20px;
+}
+
+.main-right-component {
+  height: 10%;
+  color: white;
+  font-size: small;
+  display: flex;
+  justify-content: left;
+  padding-top: 0.3rem;
+}
+
+.right-sub-component {
+  background: linear-gradient(0deg, #1e1e1f, rgb(11, 93, 107), #1e1e1f);
+  border-radius: 20px;
+}
+
+.right-sub-sub-component {
+  background: linear-gradient(0deg, #1e1e1f, rgb(11, 93, 107), #1e1e1f);
+  height: 35%;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60%;
+  border-radius: 20px;
+}
+
+.meta-desc {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.add-space {
+  margin-right: 1rem;
+}

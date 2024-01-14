@@ -1,0 +1,36 @@
+.info-parent {
+  display: flex;
+  color: white;
+}
+
+.title-description {
+  font-size: small;
+}
+
+.image-container {
+  height: 40%;
+  width: 40%;
+}
+
+.number-data {
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 2rem;
+}
+
+.meta-description {
+  font-size: small;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.upper-right-info-img {
+  width: 0.2rem;
+}
+
+.desc {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}

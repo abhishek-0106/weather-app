@@ -1,0 +1,34 @@
+.card-background {
+  background: linear-gradient(0deg, #1e1e1f, rgb(11, 93, 107), #1e1e1f);
+  border-radius: 20px;
+  padding-right: 1rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.upper-card-background {
+  border-radius: 20px;
+  background-color: #0f0f0f;
+}
+
+.card-content {
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, #1e1e1f, rgb(11, 93, 107), #1e1e1f);
+}
+
+.description-text {
+  color: white;
+  font-size: small;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: left;
+}
+
+.vertical-space {
+  padding-top: 1rem;
+}
