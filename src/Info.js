@@ -60,7 +60,7 @@ const Info = () => {
         if (text != "") {
           dataFetched.current = true;
           const apiKey = process.env.REACT_APP_API_KEY;
-          const urlToGetLatLon = `http://api.openweathermap.org/geo/1.0/direct?q=${text}&limit=1&appid=${apiKey}`;
+          const urlToGetLatLon = `https://api.openweathermap.org/geo/1.0/direct?q=${text}&limit=1&appid=${apiKey}`;
 
           const latLonResponse = await fetch(urlToGetLatLon);
           console.log(latLonResponse);
