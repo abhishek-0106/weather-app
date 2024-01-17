@@ -132,8 +132,6 @@ const Info = () => {
 
           weatherDetails.forecastData = forecastData;
 
-          console.log("Pollution data " + urlToGetPollutionData);
-
           setWeatherData(weatherDetails);
           if (showToast) {
             toast.success("Data fetched successfully", {
