@@ -63,7 +63,6 @@ const Info = () => {
           const urlToGetLatLon = `https://api.openweathermap.org/geo/1.0/direct?q=${text}&limit=1&appid=${apiKey}`;
 
           const latLonResponse = await fetch(urlToGetLatLon);
-          console.log(latLonResponse);
           const latLonJsonResponse = await latLonResponse.json();
 
           const lat = latLonJsonResponse[0].lat;
