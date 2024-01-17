@@ -1,2 +1,2 @@
 # weather-app
-  It is a weather-app made using React.js. Data is fetched from Open Weather Map APIs and some React hooks have been used. React Context API has also been used.
+  It is a weather-app made using React.js. Data is fetched from Open Weather Map APIs and some React hooks have been used. React Context API has also been used. Project has been deployed on Netlify. Currently the app is not responsive, i.e. it is best visible on desktop only. In the coming future, there's plan to convert into responsive one. Project is deployed here : https://weather-app-by-abhishek-ralhan.netlify.app/
